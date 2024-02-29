@@ -304,13 +304,13 @@ export default function Product ({ data }) {
 
             </main>
 
-            <div className="product-cards">
+{/*             <div className="product-cards">
                 {
                     data.data.is_market ?
                     ( data.recommeded.length > 0 && <Cards data={data.recommeded} title="مزادات مقترحة" auction slider/> ) :
                     ( data.recommeded.length > 0 && <Cards data={data.recommeded} title="مقترحة لك" slider/> )
                 }
-            </div>
+            </div> */}
 
             <Viewer images={data.data.images} title={data.data.name}/>
 
